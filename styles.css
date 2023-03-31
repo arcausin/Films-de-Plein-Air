@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Hardome';
+    src: url('/fonts/hardome/Hardome.otf') format('opentype'),
+        url('/fonts/hardome/Hardome.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Imperial';
+    src: url('/fonts/imperial/Imperial.woff') format('woff');
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    padding: 1rem 2rem;
+
+    font-family: 'Hardome';
+    color: #c22015;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul li {
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+
+    font-family: 'Imperial';
+    color: #000000;
+}
+
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "festival films actualites";
+
+    background-color: #f7f4ee;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #c22015;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .title {
+    margin-left: 2rem;
+
+    font-family: 'Imperial';
+    color: #ffffff;
+}
+
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+.footer .nav ul li {
+    list-style: none;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.footer .nav ul li a {
+    text-decoration: none;
+
+    font-family: 'Imperial';
+    color: #ffffff;
+}
+
+.footer .coordonnees {
+    margin-right: 2rem;
+    padding: 1rem 0rem;
+
+    text-align: end;
+    font-family: 'Imperial';
+    color: #ffffff;
+}
+
+.festival {
+    grid-area: festival;
+}
+
+.festival h2 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    font-family: 'Imperial';
+    font-size: 3rem;
+    color: #000000;
+}
+
+.festival .festival-text {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+
+    font-family: 'Imperial';
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+}
+
+.festival .festival-text .histoire {
+    text-align: start;
+    margin-bottom: 3rem;
+}
+
+.festival .festival-text h3 {
+    margin-bottom: 1rem;
+}
+
+.festival .festival-text .equipes {
+    text-align: end;
+}
+
+.festival button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 1rem 2rem;
+
+    font-family: 'Imperial';
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.films {
+    grid-area: films;
+}
+
+.films img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.films h2 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    font-family: 'Imperial';
+    font-size: 3rem;
+    color: #000000;
+}
+
+.films button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 1rem 2rem;
+
+    font-family: 'Imperial';
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.actualites {
+    grid-area: actualites;
+}
+
+.actualites h2 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    font-family: 'Imperial';
+    font-size: 3rem;
+    color: #000000;
+}
+
+.actualites .actualite {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border: #000000 solid 1px;
+    border-radius: 1rem;
+}
+
+.actualites .actualite a {
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.actualites .actualite a img {
+    width: 10rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+}
+
+.actualites .actualite a h3 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+    font-family: 'Imperial';
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.actualites .actualite a p {
+    margin-left: 1rem;
+    
+    font-family: 'Imperial';
+    font-size: 0.8rem;
+    color: #000000;
+    text-align: justify;
+}
+
+.actualites button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+
+    font-family: 'Imperial';
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+h6 {
+    font-size: 0.5rem;
+}
