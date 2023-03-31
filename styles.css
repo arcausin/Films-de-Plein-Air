@@ -1,7 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    * {
+        font-size: 16px;
+    }
 }
 
 @font-face {
@@ -62,28 +74,55 @@
 .main {
     grid-area: main;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-        "festival films actualites";
-
+        "festival"
+        "films"
+        "actualites";
     background-color: #f7f4ee;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "festival films actualites";
+    }
 }
 
 .footer {
     grid-area: footer;
     background-color: #c22015;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .footer .title {
-    margin-left: 2rem;
+    margin: 2rem;
 
     font-family: 'Imperial';
     color: #ffffff;
+}
+
+.footer .title p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .footer .title p {
+        font-size: 1rem;
+        text-align: start;
+    }
 }
 
 .footer .nav {
@@ -102,18 +141,41 @@
 
 .footer .nav ul li a {
     text-decoration: none;
+    
+    font-family: 'Imperial';
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .footer .nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+.footer .coordonnees {
+    padding: 1rem 0rem;
 
     font-family: 'Imperial';
     color: #ffffff;
 }
 
-.footer .coordonnees {
-    margin-right: 2rem;
-    padding: 1rem 0rem;
+@media screen and (min-width: 768px) {
+    .footer .coordonnees {
+        margin-right: 2rem;
+    }
+}
 
-    text-align: end;
-    font-family: 'Imperial';
-    color: #ffffff;
+.footer .coordonnees p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .footer .coordonnees p {
+        text-align: end;
+        font-size: 1rem;
+    }
 }
 
 .festival {
@@ -126,13 +188,12 @@
     padding-bottom: 3rem;
 
     font-family: 'Imperial';
-    font-size: 3rem;
     color: #000000;
 }
 
 .festival .festival-text {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 5rem;
     padding: 2rem;
 
@@ -143,9 +204,32 @@
     border-radius: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+    .festival .festival-text {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+.festival .festival-text p {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .festival .festival-text p {
+        font-size: 1rem;
+    }
+}
+
 .festival .festival-text .histoire {
     text-align: start;
     margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .festival .festival-text .histoire {
+        font-size: 5rem;
+    }
 }
 
 .festival .festival-text h3 {
@@ -163,11 +247,18 @@
     padding: 1rem 2rem;
 
     font-family: 'Imperial';
+    font-size: 3rem;
     color: #000000;
     background-color: #ffffff;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .festival button {
+        font-size: 1rem;
+    }
 }
 
 .films {
@@ -198,11 +289,18 @@
     padding: 1rem 2rem;
 
     font-family: 'Imperial';
+    font-size: 3rem;
     color: #000000;
     background-color: #ffffff;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .films button {
+        font-size: 1rem;
+    }
 }
 
 .actualites {
@@ -276,15 +374,28 @@
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 3rem;
+    }
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+
 }
 
 h4 {
