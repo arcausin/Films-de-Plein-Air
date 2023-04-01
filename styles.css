@@ -1,21 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 8px;
-}
-
-@media screen and (min-width: 768px) {
-    * {
-        font-size: 12px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    * {
-        font-size: 16px;
-    }
-}
-
 @font-face {
     font-family: 'Hardome';
     src: url('/fonts/hardome/Hardome.otf') format('opentype'),
@@ -24,388 +6,74 @@
 
 @font-face {
     font-family: 'Imperial';
-    src: url('/fonts/imperial/Imperial.woff') format('woff');
+    src: url('/fonts/imperial/ImperialBT.ttf') format('truetype');
 }
 
-.page {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
+@font-face {
+    font-family: 'Imperial-bold';
+    src: url('/fonts/imperial/ImperialBTBold.ttf') format('truetype');
 }
 
-.header {
-    grid-area: header;
-    background-color: #ffffff;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@font-face {
+    font-family: 'Dinengschriftstd';
+    src: url('/fonts/dinengschriftstd/DINEngschriftStd.otf') format('opentype');
 }
 
-.header h1 {
-    padding: 1rem 2rem;
+.hardome {
+    font-family: 'Hardome', sans-serif;
+}
 
-    font-family: 'Hardome';
+.imperial {
+    font-family: 'Imperial', sans-serif;
+}
+
+.imperial-bold {
+    font-family: 'Imperial-bold', sans-serif;
+}
+
+.dinengschriftstd {
+    font-family: 'Dinengschriftstd', sans-serif;
+}
+
+.text-c22015 {
     color: #c22015;
 }
 
-.header nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header nav ul li {
-    list-style: none;
-    padding: 1rem 2rem;
-}
-
-.header nav ul li a {
-    text-decoration: none;
-
-    font-family: 'Imperial';
-    color: #000000;
-}
-
-.main {
-    grid-area: main;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "festival"
-        "films"
-        "actualites";
+.bg-f7f4ee {
     background-color: #f7f4ee;
 }
 
-@media screen and (min-width: 1024px) {
-    .main {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-            "festival films actualites";
-    }
-}
-
-.footer {
-    grid-area: footer;
+.bg-c22015 {
     background-color: #c22015;
-
-    display: block;
 }
 
-@media screen and (min-width: 768px) {
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.opacity-mid {
+    opacity: 0.5;
+    transition: opacity 0.5s;
 }
 
-.footer .title {
-    margin: 2rem;
-
-    font-family: 'Imperial';
-    color: #ffffff;
+.opacity-mid:hover {
+    opacity: 1;
 }
 
-.footer .title p {
-    font-size: 2rem;
-    text-align: center;
+.animate-opacity {
+    transition: opacity 0.5s;
 }
 
-@media screen and (min-width: 768px) {
-    .footer .title p {
-        font-size: 1rem;
-        text-align: start;
-    }
+.animate-opacity:hover {
+    opacity: 0.5;
 }
 
-.footer .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 0rem;
+.shadow-top {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
 }
 
-.footer .nav ul li {
-    list-style: none;
-    text-align: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
+.shadow-bottom {
+    box-shadow: 0 -.5rem 1rem rgba(0,0,0,.05);
 }
 
-.footer .nav ul li a {
-    text-decoration: none;
-    
-    font-family: 'Imperial';
-    font-size: 2rem;
-    color: #ffffff;
-}
-
-@media screen and (min-width: 768px) {
-    .footer .nav ul li a {
-        font-size: 1rem;
-    }
-}
-
-.footer .coordonnees {
-    padding: 1rem 0rem;
-
-    font-family: 'Imperial';
-    color: #ffffff;
-}
-
-@media screen and (min-width: 768px) {
-    .footer .coordonnees {
-        margin-right: 2rem;
-    }
-}
-
-.footer .coordonnees p {
-    text-align: center;
-    font-size: 2rem;
-}
-
-@media screen and (min-width: 768px) {
-    .footer .coordonnees p {
-        text-align: end;
-        font-size: 1rem;
-    }
-}
-
-.festival {
-    grid-area: festival;
-}
-
-.festival h2 {
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    font-family: 'Imperial';
-    color: #000000;
-}
-
-.festival .festival-text {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 5rem;
-    padding: 2rem;
-
-    font-family: 'Imperial';
-    color: #000000;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-    .festival .festival-text {
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-}
-
-.festival .festival-text p {
-    font-size: 1.5rem;
-}
-
-@media screen and (min-width: 768px) {
-    .festival .festival-text p {
-        font-size: 1rem;
-    }
-}
-
-.festival .festival-text .histoire {
-    text-align: start;
-    margin-bottom: 3rem;
-}
-
-@media screen and (max-width: 768px) {
-    .festival .festival-text .histoire {
-        font-size: 5rem;
-    }
-}
-
-.festival .festival-text h3 {
-    margin-bottom: 1rem;
-}
-
-.festival .festival-text .equipes {
-    text-align: end;
-}
-
-.festival button {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-    padding: 1rem 2rem;
-
-    font-family: 'Imperial';
-    font-size: 3rem;
-    color: #000000;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-    .festival button {
-        font-size: 1rem;
-    }
-}
-
-.films {
-    grid-area: films;
-}
-
-.films img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 3rem;
-    border-radius: 1rem;
-}
-
-.films h2 {
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    font-family: 'Imperial';
-    font-size: 3rem;
-    color: #000000;
-}
-
-.films button {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-    padding: 1rem 2rem;
-
-    font-family: 'Imperial';
-    font-size: 3rem;
-    color: #000000;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-    .films button {
-        font-size: 1rem;
-    }
-}
-
-.actualites {
-    grid-area: actualites;
-}
-
-.actualites h2 {
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    font-family: 'Imperial';
-    font-size: 3rem;
-    color: #000000;
-}
-
-.actualites .actualite {
-    text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 2rem;
-    padding: 1rem 2rem;
-    border: #000000 solid 1px;
-    border-radius: 1rem;
-}
-
-.actualites .actualite a {
-    text-decoration: none;
-
-    display: flex;
-    align-items: center;
-    text-align: start;
-}
-
-.actualites .actualite a img {
-    width: 10rem;
-    height: 6rem;
-    border-radius: 0.5rem;
-}
-
-.actualites .actualite a h3 {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-
-    font-family: 'Imperial';
-    font-size: 1.5rem;
-    color: #000000;
-}
-
-.actualites .actualite a p {
-    margin-left: 1rem;
-    
-    font-family: 'Imperial';
-    font-size: 0.8rem;
-    color: #000000;
-    text-align: justify;
-}
-
-.actualites button {
-    display: block;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    margin-bottom: 5rem;
-
-    font-family: 'Imperial';
-    color: #000000;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 4rem;
-}
-
-@media screen and (min-width: 768px) {
-    h2 {
-        font-size: 3rem;
-    }
-}
-
-h3 {
-    font-size: 2.5rem;
-}
-
-@media screen and (min-width: 768px) {
-    h3 {
-        font-size: 1.25rem;
-    }
-
-}
-
-h4 {
-    font-size: 1rem;
-}
-
-h5 {
-    font-size: 0.75rem;
-}
-
-h6 {
-    font-size: 0.5rem;
+.shortcut-word {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
