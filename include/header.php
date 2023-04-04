@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="/le-festival.php" class="nav-link imperial text-black animate-opacity ps-0">Le festival</a>
+                    <a href="/le-festival" class="nav-link imperial text-black animate-opacity ps-0">Le festival</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/actualites.php" class="nav-link imperial text-black animate-opacity">Actualités</a>
+                    <a href="/actualites" class="nav-link imperial text-black animate-opacity">Actualités</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/films.php" class="nav-link imperial text-black animate-opacity">Films</a>
+                    <a href="/films" class="nav-link imperial text-black animate-opacity">Films</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/reservation.php" class="nav-link imperial text-black animate-opacity pe-0 me-lg-5">Réservation</a>
+                    <a href="/reservation" class="nav-link imperial text-black animate-opacity pe-0 me-lg-5">Réservation</a>
                 </li>
             </ul>
         </div>
