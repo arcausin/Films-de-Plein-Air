@@ -1,6 +1,6 @@
 <header id="header-content" class="container-fluid bg-white fixed-top">
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand animate-opacity" href="/"><h1 class="hardome text-c22015 fs-4 ms-lg-5">Festival des Films en Plein Air</h1></a>
+        <a class="navbar-brand animate-opacity" href="/"><h1 class="hardome text-c22015 fs-4 ms-lg-5">Les Films de Plein Air</h1></a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
