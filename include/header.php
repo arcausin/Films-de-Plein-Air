@@ -1,6 +1,10 @@
 <header id="header-content" class="container-fluid bg-white fixed-top">
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand animate-opacity" href="/"><h1 class="hardome text-c22015 fs-4 ms-lg-5">Les Films de Plein Air</h1></a>
+        <div class="py-1 d-flex align-items-center">
+            <img class="img-fluid" src="/images/logo.png" alt="" style="height: 35px;">
+
+            <a class="navbar-brand animate-opacity ms-3" href="/"><p class="hardome text-c22015 fs-3 mb-0">Les Films de Plein Air</p></a>
+        </div>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

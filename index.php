@@ -43,7 +43,7 @@
                                     <img class="img-fluid rounded" src="https://st.depositphotos.com/1003368/5028/i/950/depositphotos_50283209-stock-photo-street-in-paris-illustration.jpg" alt="" style="filter: brightness(0.85);">
 
                                     <div class="p-3 position-absolute bottom-0">
-                                        <h3 class="fs-4 dinengschriftstd mb-0">Test d'un article du festival</h3>
+                                        <h3 class="fs-4 imperial-bold mb-0">Test d'un article du festival</h3>
                                     </div>
                                 </div>
                             </a>
@@ -54,7 +54,7 @@
                                     <img class="img-fluid rounded" src="https://st.depositphotos.com/1003368/5028/i/950/depositphotos_50283209-stock-photo-street-in-paris-illustration.jpg" alt="" style="filter: brightness(0.85);">
 
                                     <div class="p-3 position-absolute bottom-0">
-                                        <h3 class="fs-4 dinengschriftstd mb-0">Test d'un article du festival</h3>
+                                        <h3 class="fs-4 imperial-bold mb-0">Test d'un article du festival</h3>
                                     </div>
                                 </div>
                             </a>

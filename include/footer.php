@@ -1,7 +1,9 @@
 <footer id="footer-content" class="container-fluid bg-c22015">
     <div class="row">
-        <div class="col-12 col-lg-4 align-self-center">
-            <a class="text-decoration-none animate-opacity" href="/"><p class="mt-2 mb-2 hardome text-white fs-4 text-center text-lg-start ms-lg-5">Les Films de Plein Air</p></a>
+    <div class="py-1 d-flex align-items-center">
+            <img class="img-fluid" src="/images/logo-alternative.png" alt="" style="height: 35px;">
+
+            <a class="navbar-brand animate-opacity ms-3" href="/"><p class="hardome text-white fs-3 mb-0">Les Films de Plein Air</p></a>
         </div>
 
         <div class="col-12 col-lg-4 align-self-lg-center">

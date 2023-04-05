@@ -14,25 +14,17 @@
     src: url('/fonts/imperial/ImperialBTBold.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Dinengschriftstd';
-    src: url('/fonts/dinengschriftstd/DINEngschriftStd.otf') format('opentype');
-}
-
 .hardome {
     font-family: 'Hardome', sans-serif;
 }
 
 .imperial {
     font-family: 'Imperial', sans-serif;
+    line-height: 1.6rem;
 }
 
 .imperial-bold {
     font-family: 'Imperial-bold', sans-serif;
-}
-
-.dinengschriftstd {
-    font-family: 'Dinengschriftstd', sans-serif;
 }
 
 .text-c22015 {
