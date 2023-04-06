@@ -1,6 +1,6 @@
 <footer id="footer-content" class="container-fluid bg-c22015">
     <div class="row">
-    <div class="py-1 d-flex align-items-center">
+        <div class="col-12 col-lg-4 py-2 d-flex align-items-center justify-content-center justify-content-lg-start">
             <img class="img-fluid" src="/images/logo-alternative.png" alt="" style="height: 35px;">
 
             <a class="navbar-brand animate-opacity ms-3" href="/"><p class="hardome text-white fs-3 mb-0">Les Films de Plein Air</p></a>
