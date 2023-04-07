@@ -30,7 +30,7 @@
         <div id="main-content" class="container">
             <main class="row">
                 <div class="col-12 text-center mt-3 mb-3">
-                    <h1 class="fs-6 imperial-bold text-black">Bienvenue sur films-en-plein-air.org</h1>
+                    <h1 class="fs-6 imperial-bold text-black">Bienvenue sur films-de-plein-air.org</h1>
                 </div>
                 
                 <section class="col-12">
