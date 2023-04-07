@@ -4,12 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <title>Accueil | Films en Plein Air</title>
+    <title>Accueil | Films de Plein Air</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <h1>Festival des Films en Plein Air</h1>
+            <h1>Festival des Films de Plein Air</h1>
             <nav>
                 <ul>
                     <li><a href="">Le festival</a></li>
@@ -86,7 +86,7 @@
 
         <footer class="footer">
             <div class="title">
-                <p>Festival des Films en Plein Air</p>
+                <p>Festival des Films de Plein Air</p>
             </div>
 
             <div class="nav">

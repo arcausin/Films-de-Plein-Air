@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Films - Films en Plein Air</title>
+    <title>Films - Films de Plein Air</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
 
@@ -34,7 +34,7 @@
 
                     <h1 class="mt-5 mb-5 imperial-bold text-black text-center">Films</h1>
 
-                    <p class="imperial text-black mb-5">Retrouvez toutes les projections de films du 05 au 08 août 2023 du Festival des Films en Plein Air.</p>
+                    <p class="imperial text-black mb-5">Retrouvez toutes les projections de films du 05 au 08 août 2023 du Festival des Films de Plein Air.</p>
 
                     <div class="row">
                         <div class="col-12 col-lg-6 mb-5">
