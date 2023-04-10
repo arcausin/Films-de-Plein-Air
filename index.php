@@ -32,46 +32,11 @@
                 <div class="col-12 text-center mt-3 mb-3">
                     <h1 class="fs-6 imperial-bold text-black">Bienvenue sur films-de-plein-air.org</h1>
                 </div>
-                
-                <section class="col-12">
-                    <h2 class="mb-3 imperial-bold text-black fs-2">Nos derniers articles</h2>
-
-                    <div class="row g-4 mb-4">
-                        <div class="col-12 col-md-6">
-                            <a class="text-decoration-none text-white animate-opacity" href="/actualites/la-projection-d-emily-the-criminal-en-presence-du-realisateur">
-                                <div class="position-relative">
-                                    <img class="shadow img-fluid rounded-4" src="/images/actualites/la-projection-d-emily-the-criminal-en-presence-du-realisateur.jpg" alt="" style="filter: brightness(0.85);">
-
-                                    <div class="p-3 position-absolute bottom-0">
-                                        <h3 class="fs-4 imperial-bold mb-0">La projection d'Emily The Criminal en présence du réalisateur</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <a class="text-decoration-none text-white animate-opacity" href="/actualites/participez-au-vote-du-public">
-                                <div class="position-relative">
-                                    <img class="shadow img-fluid rounded-4" src="/images/actualites/participez-au-vote-du-public.jpg" alt="" style="filter: brightness(0.85);">
-
-                                    <div class="p-3 position-absolute bottom-0">
-                                        <h3 class="fs-4 imperial-bold mb-0">Participez au vote du public</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="mb-5 text-center">
-                        <a href="/actualites">
-                            <span class="badge text-bg-dark py-2 fs-3 animate-opacity">
-                                <h3 class="imperial-bold mb-0 fw-bold">Plus d'articles</h3>
-                            </span>
-                        </a>
-                    </div>
-                </section>
 
                 <section class="col-12">
-                    <h2 class="mb-3 imperial-bold text-black fs-2">Les prochaines projections</h2>
+                    <h2 class="imperial-bold text-black fs-2">Les prochaines projections</h2>
+
+                    <p class="mb-3"><a class="imperial text-black animate-opacity fs-6" href="/films">Découvrez tous les films du festival</a></p>
 
                     <div class="row g-4 mb-4">
                         <div class="col-6 col-md-4 col-lg-2">
@@ -142,20 +107,6 @@
                     </div>
 
                     <div class="mb-5 text-center">
-                        <a href="/films">
-                            <span class="badge text-bg-dark py-2 fs-3 animate-opacity">
-                                <h3 class="imperial-bold mb-0 fw-bold">Plus de films</h3>
-                            </span>
-                        </a>
-                    </div>
-
-                    <h2 class="mb-3 imperial-bold text-black text-center text-lg-start">Plan du festival</h2>
-
-                    <div class="mb-4">
-                        <iframe class="shadow rounded-4 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136649!2d2.306766315824663!3d48.879687007160825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1680574682039!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <div class="mb-5 text-center">
                         <a href="/reservation">
                             <span class="badge text-bg-dark py-2 fs-3 animate-opacity">
                                 <h3 class="imperial-bold mb-0 fw-bold">Réserver</h3>
@@ -163,6 +114,49 @@
                         </a>
                     </div>
                 </section>
+
+                <section class="col-12">
+                    <h2 class="mb-3 imperial-bold text-black fs-2">Nos derniers articles</h2>
+
+                    <div class="row g-4 mb-4">
+                        <div class="col-12 col-md-6">
+                            <a class="text-decoration-none text-white animate-opacity" href="/actualites/la-projection-d-emily-the-criminal-en-presence-du-realisateur">
+                                <div class="position-relative">
+                                    <img class="shadow img-fluid rounded-4" src="/images/actualites/la-projection-d-emily-the-criminal-en-presence-du-realisateur.jpg" alt="" style="filter: brightness(0.85);">
+
+                                    <div class="p-3 position-absolute bottom-0">
+                                        <h3 class="fs-4 imperial-bold mb-0">La projection d'Emily The Criminal en présence du réalisateur</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <a class="text-decoration-none text-white animate-opacity" href="/actualites/participez-au-vote-du-public">
+                                <div class="position-relative">
+                                    <img class="shadow img-fluid rounded-4" src="/images/actualites/participez-au-vote-du-public.jpg" alt="" style="filter: brightness(0.85);">
+
+                                    <div class="p-3 position-absolute bottom-0">
+                                        <h3 class="fs-4 imperial-bold mb-0">Participez au vote du public</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mb-5 text-center">
+                        <a href="/actualites">
+                            <span class="badge text-bg-dark py-2 fs-3 animate-opacity">
+                                <h3 class="imperial-bold mb-0 fw-bold">Plus d'articles</h3>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                
+                <h2 class="mb-3 imperial-bold text-black text-center text-lg-start">Plan du festival</h2>
+
+                <div class="mb-4">
+                    <iframe class="shadow rounded-4 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136649!2d2.306766315824663!3d48.879687007160825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1680574682039!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </main>
         </div>
     </div>

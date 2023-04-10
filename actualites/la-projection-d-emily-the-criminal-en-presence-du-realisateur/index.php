@@ -32,7 +32,7 @@
                 <section class="col-12 col-lg-8">
                     <p class="mt-3 mb-3 text-black"><a class="text-black animate-opacity" href="/">Accueil</a> > <a class="text-black animate-opacity" href="/actualites">Actualités</a> > La projection d'Emily The Criminal en présence du réalisateur</p>
 
-                    <h1 class="mt-5 mb-5 imperial-bold text-black text-center text-md-start">La projection d'Emily The Criminal en présence du réalisateur</h1>
+                    <h1 class="mt-5 mb-5 imperial-bold text-black">La projection d'Emily The Criminal en présence du réalisateur</h1>
 
                     <img class="shadow img-fluid rounded-4 mb-3" src="/images/actualites/la-projection-d-emily-the-criminal-en-presence-du-realisateur.jpg" alt="">
 

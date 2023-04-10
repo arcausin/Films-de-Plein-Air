@@ -32,7 +32,7 @@
                 <section class="col-12 col-lg-8">
                     <p class="mt-3 mb-3 text-black"><a class="text-black animate-opacity" href="/">Accueil</a> > <a class="text-black animate-opacity" href="/actualites">Actualités</a> > La sélection du festival</p>
 
-                    <h1 class="mt-5 mb-5 imperial-bold text-black text-center text-md-start">La sélection du festival</h1>
+                    <h1 class="mt-5 mb-5 imperial-bold text-black">La sélection du festival</h1>
 
                     <img class="shadow img-fluid rounded-4 mb-3" src="/images/actualites/la-selection-du-festival.jpg" alt="">
 
